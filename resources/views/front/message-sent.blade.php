@@ -1,0 +1,27 @@
+@extends('layouts.main')
+@section('content')
+    <!--breadcrumbs area start-->
+    <div class="breadcrumbs_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+                        <ul>
+                            <li><a href="/">home</a></li>
+                            <li>Message</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--contact area start-->
+    <div class="contact_area">
+        <div class="container">
+            <h2 class="text-success">Message Sent, We will get back to you shortly</h2>
+        </div>
+    </div>
+
+    <!--contact area end-->
+@endsection
